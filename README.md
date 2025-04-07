@@ -1,10 +1,11 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/IjdyOxY5)
 # Trabajo Práctico 1: Desarrollo Guiado por Pruebas (TDD) - Conversión de Números Romanos
 
 ## Identificación del Alumno
-**Nombre y Apellido:** [Completar con tu nombre y apellido]
+**Nombre y Apellido:** [Regina Mathon]
 
 ## Objetivo
-Este trabajo práctico tiene como objetivo practicar el desarrollo guiado por pruebas (TDD) en Python, implementando un convertidor de números decimales a números romanos.
+Este trabajo práctico tiene como objetivo practicar el desarrollo guiado por pruebas (TDD) en Python, implementando un convertidor de números decimales a números romanos
 
 ## Fecha de Vencimiento
 El trabajo debe ser entregado antes del **09/04/2025 a las 13:00 hs**.
@@ -72,7 +73,7 @@ Para la conversión de números decimales a romanos, deberás seguir estas regla
 ```python
 import unittest
 from src.roman_converter import decimal_to_roman
-
+s
 class TestRomanConverter(unittest.TestCase):
     def test_basic_numbers(self):
         self.assertEqual(decimal_to_roman(1), "I")
